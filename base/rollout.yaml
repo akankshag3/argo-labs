@@ -23,14 +23,14 @@ spec:
         tier: front
     spec:
       containers:
-      - image: schoolofdevops/vote:v1
+      - image: schoolofdevops/vote:v3
         name: vote
         imagePullPolicy: Always
-        resources: 
+        resources:
           requests:
             cpu: "50m"
             memory: "64Mi"
-          limits: 
+          limits:
             cpu: "250m"
             memory: "128Mi"
         
